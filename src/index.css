@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: darkseagreen;
+}
+
+.App{    
+   
+}
+
+.scoreBoard {
+  display: flex;
+  background-color: rgb(176, 179, 179);
+  justify-content: center;
+  align-items: space-around;
+  align-self: center;  
+  height: 5vh;
+  width: 100vw;
+}
+h3{
+  font-size: 30px;
+  align-self: center;
+  margin: 10px;
+}
+
+.cardTable{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+.card{
+  display: flex;
+  margin: 6px;
+  height: 20vw;
+  width: 17vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.tableAlignment{
+  display: flex;
+  justify-content: center;
+}
